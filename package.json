@@ -1,0 +1,13 @@
+{
+  "name": "typescriptexample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/nickaskam/first_typescript.git",
+  "author": "Nick Askam <asknickfilms@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.7",
+    "express": "^4.17.1",
+    "typescript": "^3.9.6"
+  }
+}
