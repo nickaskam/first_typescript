@@ -1,0 +1,29 @@
+.headerContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  font-size: 0.8em; }
+
+.leftHeader {
+  text-align: left; }
+
+nav {
+  text-align: center; }
+  nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-block; }
+  nav li {
+    color: black;
+    float: left;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    line-height: 25px;
+    border-radius: 4px; }
+    nav li:hover {
+      background-color: #ddd;
+      color: black; }
+
+.rightHeader {
+  text-align: center; }
