@@ -22,7 +22,10 @@ export class Main extends Component<{}> {
           />
           <Redirect to="/hello" />
         </Switch>
-        <Footer />
+        <Footer
+          author={<strong>Nick Askam</strong>}
+          email={<a href="mailto:nickaskam@gmail.com">nickaskam@gmail.com</a>}
+        />
       </div>
     );
   }

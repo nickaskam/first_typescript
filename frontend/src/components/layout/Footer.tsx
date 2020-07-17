@@ -1,10 +1,17 @@
 import React, { Component } from "react";
 
-export class Footer extends Component<{}> {
+type Props = {
+  author: React.ReactNode;
+  email: React.ReactNode;
+};
+
+export class Footer extends Component<Props, {}> {
   render() {
     return (
       <div className="pageName">
-        <h4>Footer</h4>
+        <p>
+          This website was made by {this.props.author} at {this.props.email}
+        </p>
       </div>
     );
   }
