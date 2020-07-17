@@ -17,7 +17,9 @@ export class Header extends Component<{}> {
             <li>
               <Link to="/goodbye">Nav 2</Link>
             </li>
-            <li>Nav 3</li>
+            <li>
+              <Link to="/anyeong">Nav 3</Link>
+            </li>
           </ul>
         </nav>
         <div className="rightHeader">
