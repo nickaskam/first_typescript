@@ -6,6 +6,11 @@ type Props = {
 
 export class Anyeong extends Component<Props, {}> {
   render() {
-    return <p>{this.props.foo}</p>;
+    return (
+      <div>
+        <h3>Anyeong</h3>
+        <p>{this.props.foo}</p>
+      </div>
+    );
   }
 }
