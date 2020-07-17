@@ -5,6 +5,7 @@ import { Header } from "./layout/Header";
 import { Footer } from "./layout/Footer";
 import Hello from "../containers/Hello";
 import { Goodbye } from "./Goodbye";
+import { Anyeong } from "./Anyeong";
 
 export class Main extends Component<{}> {
   render() {
@@ -14,6 +15,11 @@ export class Main extends Component<{}> {
         <Switch>
           <Route exact path="/hello" component={Hello} />
           <Route exact path="/goodbye" component={Goodbye} />
+          <Route
+            exact
+            path="/anyeong"
+            component={() => <Anyeong foo="bar" />}
+          />
           <Redirect to="/hello" />
         </Switch>
         <Footer />
