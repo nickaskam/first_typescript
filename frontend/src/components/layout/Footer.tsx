@@ -8,7 +8,7 @@ type Props = {
 export class Footer extends Component<Props, {}> {
   render() {
     return (
-      <div className="pageName">
+      <div className="footer">
         <p>
           This website was made by {this.props.author} at {this.props.email}
         </p>
