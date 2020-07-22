@@ -1,32 +1,39 @@
 .headerContainer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  font-size: 0.8em; }
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  font-size: 0.8em;
+  padding-bottom: 2%; }
 
 .leftHeader {
   text-align: left; }
 
 nav {
-  text-align: center; }
-  nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: inline-block; }
-  nav li {
-    color: black;
-    float: left;
-    text-align: center;
-    padding: 12px;
-    text-decoration: none;
-    line-height: 25px;
-    border-radius: 4px; }
-    nav li:hover {
-      background-color: #ddd;
-      color: black; }
+  text-align: center;
+  padding-bottom: 2%; }
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: inline-block; }
+
+nav li {
+  color: black;
+  float: left;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  line-height: 25px;
+  border-radius: 4px; }
+
+nav li:hover {
+  background-color: #ddd;
+  color: black; }
 
 .rightHeader {
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 2%; }
 
 .footer {
   width: 100%;
