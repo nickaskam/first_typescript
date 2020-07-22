@@ -1,4 +1,4 @@
-import React, { Fragment } from "react";
+import React from "react";
 
 export interface Props {
   name: string;
@@ -20,7 +20,7 @@ function Hello({
   }
 
   return (
-    <Fragment>
+    <div>
       <div className="greeting">
         Hello {name + getExclamationMarks(enthusiasmLevel)}
       </div>
@@ -31,7 +31,7 @@ function Hello({
       <div className="resetButton">
         <button onClick={onReset}>Reset</button>
       </div>
-    </Fragment>
+    </div>
   );
 }
 

@@ -2,7 +2,10 @@
   margin: 20px 0;
   padding-left: 5%;
   font-size: 48px;
+  height: 100%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
 }
 
 .greeting {
