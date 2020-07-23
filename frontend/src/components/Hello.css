@@ -19,3 +19,7 @@
   margin-right: 25px;
   font-size: 40px;
   min-width: 50px; }
+
+table {
+  border: 1px solid black;
+  padding: 5px; }
