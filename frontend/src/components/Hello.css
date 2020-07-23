@@ -21,5 +21,9 @@
   min-width: 50px; }
 
 table {
+  border: 1px solid black; }
+
+td,
+th {
   border: 1px solid black;
   padding: 5px; }
