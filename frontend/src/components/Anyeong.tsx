@@ -1,10 +1,14 @@
 import React, { Component } from "react";
 
-type Props = {
+type AnyeongProps = {
   foo: string;
 };
 
-export class Anyeong extends Component<Props> {
+export class Anyeong extends Component<AnyeongProps> {
+  constructor(props: AnyeongProps) {
+    super(props);
+  }
+
   static defaultProps = {
     foo: "bar2",
   };
