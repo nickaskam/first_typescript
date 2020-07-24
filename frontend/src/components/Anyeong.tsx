@@ -4,7 +4,11 @@ type Props = {
   foo: string;
 };
 
-export class Anyeong extends Component<Props, {}> {
+export class Anyeong extends Component<Props> {
+  static defaultProps = {
+    foo: "bar2",
+  };
+
   render() {
     return (
       <div>
